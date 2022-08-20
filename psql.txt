@@ -1,0 +1,6 @@
+psql -h localhost -p 5432 -U postgres -d postgres -f test_schema.ddl
+
+psql "postgresql://syntaxboard:syntaxboard@localhost:5432/syntaxboard"
+psql "host=localhost port=5432 dbname=syntaxboard user=syntaxboard password=syntaxboard"
+
+psql --file=product_data.sql --host=hostname.postgres.database.azure.com --port=5432 --username=postgres@postgres-esprit --dbname=product_data
