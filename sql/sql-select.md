@@ -2,7 +2,7 @@
 > by Team Tinitiate
 
 ### Source Data
-![EMP TABLE](emp_table.png)
+![EMP TABLE](./emp_table.png)
 
 ## COUNT
 * Count is an aggregate funciton to get the count of rows
